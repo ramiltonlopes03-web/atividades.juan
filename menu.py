@@ -1,6 +1,8 @@
 from ufc import Campus
 
-campi = []
+campi = ["itapaje"]
+nome = "itapaje"
+campins_existente = campi.append(Campus(nome))
 
 def menu():
     while True:
